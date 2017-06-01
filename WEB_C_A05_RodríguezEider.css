@@ -1,0 +1,733 @@
+html, body
+
+{	
+	padding: 0;
+	
+	margin: 0;
+	
+	height: 100%;
+}
+
+.Logo
+
+{
+	
+	position: fixed;
+	
+	margin-top: 0%;
+	
+	margin-left: 0;
+	
+	width: 10%;
+	
+	height: 15%;
+	
+	z-index: 5;
+
+	overflow: hidden;
+}
+
+.Logo_imagen
+
+{
+	position: absolute;
+	
+	margin-top: 2%;
+	
+	margin-left: -5%;
+
+	height: 115%;
+	
+	z-index: 0;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	
+}
+
+
+.INICIO
+
+{
+
+	position: absolute;
+	
+	width: 100%;
+	
+	height: 100%;
+	
+	background-color: white;
+	
+
+}
+
+.TITULO_INICIO
+
+{
+
+	position: absolute;
+	
+	left: 50%;
+    top: 50%;
+	
+	width: 70%;
+	
+	height: 70%;
+	
+	background-color: white;
+	
+	transform: translate(-50%,-50%);
+	
+	z-index: 2;
+	
+	overflow: hidden;
+	
+
+}
+
+.fondo
+
+{
+	position: absolute;
+	
+	margin-top:28%;
+	
+	margin-left:50%;
+	
+	width: 200%;
+	
+	transform: translate(-50%,-50%);
+	
+	z-index: 3;
+	
+
+}
+
+.fondo video
+
+{
+
+	height:100%;
+	
+	width:100%;
+}
+
+.EIDER_RODRIGUEZ
+
+{
+	position: absolute;
+	
+	left:50%;
+	
+	top: 10%;
+	
+	width: 500px;
+	
+	transform: translate(-50%,-50%);
+	
+	font-size: 70px;
+	
+	font-family: Antic;
+	
+	text-align: center;
+	
+	z-index: 3;
+
+}
+
+.BOTON_INICIO
+
+{
+	position: absolute;
+	
+	left:50%;
+	
+	top: 90%;
+	
+	width: 100px;
+	
+	height: 100px;
+	
+	background-color: black;
+	
+	transform: translate(-50%,-50%);
+	
+	z-index: 3;
+	
+	border-radius: 50%;
+	
+}
+
+.MENU_TRABAJOS
+
+{
+	position: absolute;
+	
+	top:100%;
+	
+	width: 100%;
+	
+	height: 100%;
+	
+	z-index: 0;
+	
+	background-color: #C6AFAF;
+	
+}
+
+.AREA_CORTOS
+
+{
+	position: absolute;
+	
+	top: 5%;
+	
+	left: 7.5%;
+	
+	width: 25%;
+	
+	height: 40%;
+	
+	background-color: black;
+	
+	z-index: 1;
+	
+	overflow: hidden;
+
+	
+}
+
+.AREA_VIDEOJUEGO
+
+{
+	position: absolute;
+	
+	top: 5%;
+	
+	left: 37.5%;
+	
+	width: 25%;
+	
+	height: 40%;
+	
+	z-index: 1;
+	
+	overflow: hidden;
+	
+	background-color: black;
+}
+
+.AREA_ANIMACION
+
+{
+	position: absolute;
+	
+	top: 5%;
+	
+	left:67.5%;
+	
+	width: 25%;
+	
+	height: 40%;
+	
+	background-color: black;
+	
+	z-index: 1;
+	
+	overflow: hidden;
+
+}
+
+
+.AREA_MODELADO
+
+{
+	position: absolute;
+	
+	top: 55%;
+	
+	left:15%;
+	
+	width: 25%;
+	
+	height: 40%;
+	
+	background-color: black;
+	
+	z-index: 1;
+	
+	overflow: hidden;
+	
+}
+
+.AREA_ACABADOS
+
+{
+	position: absolute;
+	
+	top: 55%;
+	
+	left:60%;
+	
+	width: 25%;
+	
+	height: 40%;
+	
+	background-color: black;
+	
+	z-index: 1;
+	
+	overflow: hidden;
+}
+
+.SOBRE_MI
+
+{
+	position: absolute;
+	
+	top:200%;
+	
+	width: 100%;
+	
+	height: 100%;
+	
+	background-color: white;
+	
+	border: solid black 1px;
+	
+	overflow: hidden;
+}
+
+.fotos
+
+{
+	position: absolute;
+	
+	height: 100%;
+	
+	z-index: 1;
+	
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.videos
+
+{
+
+	position: absolute;
+	
+	margin-top:28.7%;
+	
+	margin-left:50%;
+	
+	width: 100%;
+	
+	height: 100%;
+	
+	transform: translate(-50%,-50%);
+	
+	z-index: 0;
+
+}
+
+.overlay
+
+{
+	position: absolute;
+	
+	height: 100%;
+	
+	width: 100%;
+	
+	opacity: 0;
+	
+	background-color: #F39C12;
+	
+}
+
+.container1:hover .overlay
+
+{
+	opacity: 1;
+	
+	background-color: rgba(0, 0, 0, 0.68);
+}
+
+.container1
+
+{
+	height: 100%;
+	
+	width: 100%;
+}
+
+.foto_sobre_mi
+
+{
+	position: absolute;
+	
+	width: 1920px;
+	
+	height: 1080px;
+	
+	
+	left: 50%;
+	
+    top: 50%;
+	
+    transform: translate(-50%, -50%);
+	
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.text1
+
+{
+	color: white;
+	
+	font-size: 45px;
+	
+	font-family: courier;
+	
+	position:absolute;
+	
+	text-align: center;
+	
+	top: 50%;
+	
+	left: 50%;
+	
+	transform: translate(-50%,-50%);
+
+	z-index: 1;	
+	
+}
+
+.text2
+
+{
+	color: white;
+	
+	font-size: 45px;
+	
+	font-family: courier;
+	
+	position:absolute;
+	
+	text-align: center;
+	
+	top: 50%;
+	
+	left: 50%;
+	
+	transform: translate(-50%,-50%);	
+	
+	z-index: 1;
+	
+}
+
+.text3
+
+{
+	color: white;
+	
+	font-size: 45px;
+	
+	font-family: courier;
+	
+	position:absolute;
+	
+	text-align: center;
+	
+	top: 50%;
+	
+	left: 50%;
+	
+	transform: translate(-50%,-50%);	
+	
+	z-index: 1;
+	
+}
+
+.text4
+
+{
+	color: white;
+	
+	font-size: 45px;
+	
+	font-family: courier;
+	
+	position:absolute;
+	
+	text-align: center;
+	
+	top: 50%;
+	
+	left: 50%;
+	
+	transform: translate(-50%,-50%);	
+	
+	z-index: 1;
+	
+}
+
+.text5
+
+{
+	color: white;
+	
+	font-size: 45px;
+	
+	font-family: courier;
+	
+	position:absolute;
+	
+	text-align: center;
+	
+	top: 50%;
+	
+	left: 50%;
+	
+	transform: translate(-50%,-50%);	
+	
+	z-index: 1;
+	
+}
+
+.text6
+
+{
+	color: white;
+	
+	font-size: 45px;
+	
+	font-family: Josefin Sans;
+	
+	position: absolute;
+	
+	top: 25%;
+	
+	left: 78%;
+	
+	z-index: 1;
+	
+	text-decoration: underline;
+	
+}
+
+.text7
+
+{
+	color: white;
+	
+	font-size: 30px;
+	
+	font-family: courier;
+	
+	position: absolute;
+	
+	top: 35%;
+	
+	left: 65%;
+	
+	right: 5%;
+	
+	z-index: 1;
+	
+}
+
+
+.container_corto
+{
+
+	position: absolute;
+	left:10%;
+	width: 80%;
+	height: 160%;
+	background-color: #C6AFAF;
+
+}
+
+.video_corto
+{
+	
+	position: relative;
+	display: flex;
+	justify-content: center;
+	height: 30%;
+	width: 80%;
+	align-content: center;
+	left: 10%;
+	top:2%;
+	margin-bottom: 3%;
+	overflow: hidden;
+
+}
+
+.container_animacion
+{
+
+	position: absolute;
+	left:10%;
+	width: 80%;
+	height: 160%;
+	background-color: #C6AFAF;
+
+}
+
+.video_animacion
+{
+	
+	position: relative;
+	display: flex;
+	justify-content: center;
+	height: 30%;
+	width: 80%;
+	align-content: center;
+	left: 10%;
+	top:2%;
+	margin-bottom: 3%;
+	overflow: hidden;
+
+}
+
+
+.video_trabajos
+{
+	position: absolute;
+
+	height: 100%;
+
+	left: 50%;
+	
+    top: 50%;
+	
+    transform: translate(-50%, -50%);
+	
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.container_videojuego
+{
+
+	position: absolute;
+	
+	width: 100%;
+	
+	height: 100%;
+	
+}
+
+.visor_juego
+{
+	position: absolute;
+	
+	width: 80%;
+	
+	height: 90%;
+	
+	left: 50%;
+	
+    top: 50%;
+	
+    transform: translate(-50%, -50%);
+	
+    -webkit-transform: translate(-50%, -50%);
+	
+	overflow: hidden;
+}
+
+.juego
+{
+	position: absolute;
+
+	height: 100%;
+	
+	left: 50%;
+	
+    top: 50%;
+	
+    transform: translate(-50%, -50%);
+	
+    -webkit-transform: translate(-50%, -50%);
+
+}
+
+.container1_modelado
+{
+
+	position: absolute;
+	left:10%;
+	top: 2%;
+	width: 80%;
+	height: 95%;
+	background-color: #C6AFAF;
+
+}
+
+.container2_modelado
+{
+
+	position: absolute;
+	left:10%;
+	top: 104%;
+	width: 80%;
+	height: 95%;
+	background-color: #C6AFAF;
+
+}
+.galeria_01
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.galeria_02
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}	
+.mySlides
+ {
+	position: relative;
+	display:none;
+	height: 100%;
+
+}
+
+.w3-left, .w3-right, .w3-badge
+ {	
+ 	position: relative;
+	cursor:pointer111;
+ }
+.w3-badge 
+{	
+	position: relative;
+	height:20px;
+	width:20px;
+	padding:0;
+
+}
+
+.rotulo_apartado
+{
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-content: center;
+	height: 60%;
+	width: 18%;
+	top: 20%;
+	left: 4%;
+	color: black;
+	margin-top: middle;
+}
