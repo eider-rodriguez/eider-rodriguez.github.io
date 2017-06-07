@@ -69,6 +69,7 @@ html, body
 	position: absolute;
 	
 	left: 50%;
+	
     top: 50%;
 	
 	width: 70%;
@@ -631,9 +632,9 @@ html, body
 {
 	position: absolute;
 	
-	width: 80%;
+	width: 70%;
 	
-	height: 90%;
+	height: 70%;
 	
 	left: 50%;
 	
