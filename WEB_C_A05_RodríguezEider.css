@@ -703,7 +703,7 @@ html, body
 .mySlides
  {
 	position: relative;
-	display:none;
+	display: none;
 	height: 100%;
 
 }
@@ -711,7 +711,7 @@ html, body
 .w3-left, .w3-right, .w3-badge
  {	
  	position: relative;
-	cursor:pointer111;
+	cursor: pointer111;
  }
 .w3-badge 
 {	
